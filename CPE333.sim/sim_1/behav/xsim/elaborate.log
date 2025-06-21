@@ -1,0 +1,32 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot OTTERSim_behav xil_defaultlib.OTTERSim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 1 for port 'ALU_SRC_A' [C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sources_1/new/Top_Nika.sv:196]
+WARNING: [VRFC 10-3091] actual bit length 3 differs from formal bit length 2 for port 'SEL' [C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sources_1/new/Top_Nika.sv:205]
+WARNING: [VRFC 10-5021] port 'intr' is not connected on this instance [C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sim_1/new/Diego_sim.sv:15]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'ONE' [C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sources_1/new/Top_Nika.sv:306]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sources_1/new/Top_Nika.sv:139]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sources_1/imports/OTTER_Diego_Curiel/CU_DCDR.sv:63]
+WARNING: [VRFC 10-2649] an enum variable may only be assigned the same enum typed variable or one of its values [C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sources_1/imports/OTTER_Diego_Curiel/CU_DCDR.sv:77]
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_ALU_sv_746612730
+Compiling module xil_defaultlib.PC_MUX
+Compiling module xil_defaultlib.PC_REG
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.TwoMux
+Compiling module xil_defaultlib.FourMux
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.BCG
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.REG_FILE
+Compiling module xil_defaultlib.Top_Nika
+Compiling module xil_defaultlib.OTTERSim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot OTTERSim_behav
