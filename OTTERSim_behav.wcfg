@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="OTTERSim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="OTTERSim" />
+            <top_module name="\$unit_ALU_sv_746612730 " />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="29.360 ns"></ZoomStartTime>
+      <ZoomEndTime time="194.961 ns"></ZoomEndTime>
+      <Cursor1Time time="253.160 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="194"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/OTTERSim/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/in" type="array">
+      <obj_property name="ElementShortName">in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/my_cu_dcdr/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/my_alu/RESULT" type="array">
+      <obj_property name="ElementShortName">RESULT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/iobus_out" type="array">
+      <obj_property name="ElementShortName">iobus_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iobus_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/ir" type="array">
+      <obj_property name="ElementShortName">ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/OTTER_MEMORY/MEM_ADDR1" type="array">
+      <obj_property name="ElementShortName">MEM_ADDR1[13:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_ADDR1[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/PCREG/OUT" type="array">
+      <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/my_cu_dcdr/OPCODE" type="array">
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/my_regfile/RS2" type="array">
+      <obj_property name="ElementShortName">RS2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RS2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/my_regfile/RS1" type="array">
+      <obj_property name="ElementShortName">RS1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RS1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/my_muxB/ZERO" type="array">
+      <obj_property name="ElementShortName">ZERO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ZERO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/OTTERSim/UUT/my_muxB/OUT" type="array">
+      <obj_property name="ElementShortName">OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUT[31:0]</obj_property>
+   </wvobject>
+</wave_config>

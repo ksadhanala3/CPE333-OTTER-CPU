@@ -1,0 +1,178 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Oct  3 14:08:10 2024
+# Process ID: 48248
+# Current directory: C:/Users/jacka/Documents/CPE333/CPE333
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent49412 C:\Users\jacka\Documents\CPE333\CPE333\CPE333.xpr
+# Log file: C:/Users/jacka/Documents/CPE333/CPE333/vivado.log
+# Journal file: C:/Users/jacka/Documents/CPE333/CPE333\vivado.jou
+# Running On: Jacktop, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16858 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jacka/Documents/CPE333/CPE333/CPE333.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source otter_tb_333.tcl
+restart
+run 50000 ns
+restart
+run 50000 ns
+restart
+run 50000 ns
+relaunch_sim
+relaunch_sim
+relaunch_sim
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+file mkdir C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sim_1/new/Diego_sim.sv w ]
+add_files -fileset sim_1 C:/Users/jacka/Documents/CPE333/CPE333/CPE333.srcs/sim_1/new/Diego_sim.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top OTTERSim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source OTTERSim.tcl
+restart
+run 50000 ns
+restart
+run 50000 ns
+relaunch_sim
+run 1 s
+run all
+restart
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run all
+run all
+save_wave_config {C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+set_property xsim.view C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg [get_filesets sim_1]
+close_sim
+import_files -norecurse C:/Users/jacka/Documents/CPE333/CPE333/lab0.mem
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 5000 ns
+run 500000000 ns
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run 500000000 ns
+relaunch_sim
+run 500000000 ns
+run all
+relaunch_sim
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run 500000 ns
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run 500000 ns
+run 500000 ns
+close_sim
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/jacka/Documents/CPE333/CPE333/OTTERSim_behav.wcfg
+source OTTERSim.tcl
+run all
+close_sim
